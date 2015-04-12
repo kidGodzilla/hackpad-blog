@@ -268,6 +268,16 @@ header {
       content: '\e612';
       top: -2px; }
 
+.logo h1.collapsed {
+  display: none; }
+.logo h1.big {
+  display: block; }
+
+.collapse .logo h1.collapsed {
+  display: block; }
+.collapse .logo h1.big {
+  display: none; }
+
 .linkbox {
   width: 100%;
   height: auto;
@@ -364,6 +374,8 @@ article {
   font-size: 24px;
   line-height: 36px;
   position: relative; }
+  article a {
+    color: #4b8971; }
 
 footer {
   height: 360px;

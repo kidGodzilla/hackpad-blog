@@ -177,9 +177,6 @@ header {
             }
         }
         .collapse & {
-            h1 {
-                content: 'Blog';
-            }
             width: 82px;
             #bg, #Hu, #Hd, #ackthe, #ackpad {
             }
@@ -305,6 +302,9 @@ header {
             top: -2px;
         }
     }
+}
+.collapse .logo h1 {
+    content: 'Blog';
 }
 .linkbox {
     width: 100%;

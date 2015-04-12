@@ -22,10 +22,8 @@ $(function(){
                         $this.attr('href', "#" + $this.attr('href').split('#')[1]);
 
                     // If the link is to another local hackpad (will begin with a forward slash)
-                    if ($this.attr('href') && $this.attr('href').indexOf('/' === 0)) {
-                        var tmp = $this.attr('href').split('/')[1];
-                        $this.attr('href', "#" + tmp);
-                    }
+                    if ($this.attr('href') && $this.attr('href').indexOf('/') === 0)
+                        $this.attr('href', "#" + $this.attr('href').split('/')[1]);
 
                 });
             },

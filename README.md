@@ -21,6 +21,12 @@ http://kidgodzilla.github.io/hackpad-blog
 
 3. Modify the homepage hash **NCoXdfcG5Ij** to match the hash URL of the hackpad entry you wish to use as the index for your blog.
 
+	For example, my hackpad entry for my blogroll is located at:
+
+		https://hackpad.com/James-Hackpad-Blog-NCoXdfcG5Ij
+
+	so my hackpad hash for that entry is the part at the end, **NCoXdfcG5Ij**. This is what I put between the double-quotes.
+
 4. Commit & sync your changes. Now your blog should load the hackpad entry you just created.
 
 5. To write a blog post, simply create a new hackpad entry & link to it from your homepage hackpad entry (from steps 2-4). The link URL should follow this format:

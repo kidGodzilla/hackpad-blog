@@ -3,7 +3,7 @@ A blog based on Hackpad
 
 ## Demo
 
-http://kidgodzilla.github.io/hackpad-blog
+<a href="http://kidgodzilla.github.io/hackpad-blog" target="_new">http://kidgodzilla.github.io/hackpad-blog</a>
 
 ## Usage
 

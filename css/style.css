@@ -172,6 +172,8 @@ header {
         fill: #1DD3B0; }
     .collapse header .logo {
       width: 82px; }
+      .collapse header .logo h1 {
+        content: 'Blog'; }
       .collapse header .logo #Hd {
         -webkit-transform: translate(-143px, 0);
         transform: translate(-143px, 0); }

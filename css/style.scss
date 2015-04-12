@@ -177,6 +177,9 @@ header {
             }
         }
         .collapse & {
+            h1 {
+                content: 'Blog';
+            }
             width: 82px;
             #bg, #Hu, #Hd, #ackthe, #ackpad {
             }

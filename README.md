@@ -9,7 +9,7 @@ http://kidgodzilla.github.io/hackpad-blog
 
 1. Clone this repo & create a new `gh-pages` branch. This will publish your repository to
 
-    http://<your-github-username>.github.io/<your-repository-name>
+    http://&lt;your-github-username>.github.io/&lt;your-repository-name>
 
 2. Open `index.html`. In the header, you will find
 
@@ -25,4 +25,4 @@ http://kidgodzilla.github.io/hackpad-blog
 
 5. To write a blog post, simply create a new hackpad entry & link to it from your homepage hackpad entry (from steps 2-4). The link URL should follow this format:
 
-    http://<your-github-username>.github.io/<your-repository-name>#<blog-entry-hackpad-hash>
+    http://&lt;your-github-username>.github.io/&lt;your-repository-name>#&lt;blog-entry-hackpad-hash>

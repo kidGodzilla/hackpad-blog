@@ -1,7 +1,5 @@
 $(function(){
 
-    var load_url;
-
     function loadHackpad (hash) {
         var load_url = 'https://hackpad.com/ep/pad/static/' + hash;
         var hackpad_url = "https://hackpad.com/" + hash;
@@ -11,16 +9,12 @@ $(function(){
             type: 'GET',
             success: function(res) {
                 var text = res.responseText;
-                console.log(text);
                 var find = new RegExp('<p><strong>', 'g');
                 text = text.replace(find, "<p class='heading2'><strong>");
                 $('article').html(text);
             },
             error:function(jqXHR, textStatus, errorThrown) {
                 console.log("request failed" +textStatus);
-                // var load_url = 'http://wentin.github.io/Hack-the-Hackpad/';
-                // window.location.href = load_url;
-                // window.location.reload();
             }
         });
     }

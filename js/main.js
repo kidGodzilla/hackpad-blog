@@ -12,6 +12,7 @@ $(function(){
                 var find = new RegExp('<p><strong>', 'g');
                 text = text.replace(find, "<p class='heading2'><strong>");
                 $('article').html(text);
+                console.log(text);
 
                 // Fix a links
                 $('a').each(function () {
@@ -21,7 +22,7 @@ $(function(){
                         $this.attr('href', "#" + $this.attr('href').split('#')[1]);
 
                     // If the link is to a hackpad
-                    
+
                 });
             },
             error:function(jqXHR, textStatus, errorThrown) {

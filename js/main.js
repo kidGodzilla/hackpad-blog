@@ -12,6 +12,13 @@ $(function(){
                 var find = new RegExp('<p><strong>', 'g');
                 text = text.replace(find, "<p class='heading2'><strong>");
                 $('article').html(text);
+
+                // Fix a links to a hashtag
+                $('a').each(function () {
+                    var $this = $(this);
+                    if ($this.attr('href') && ($this.attr('href').indexOf('https://#' > -1) || $this.attr('href').indexOf('http://#' > -1)))
+                        $this.attr('href', "#" + $this.attr('href').split('#')[1]);
+                });
             },
             error:function(jqXHR, textStatus, errorThrown) {
                 console.log("request failed" +textStatus);

@@ -38,7 +38,7 @@ $(function(){
     handleHashchange();
 
     // Handle hashchange events
-    $(window).hashchange(handleHashchange);
+    $(window).bind('hashchange', handleHashchange);
 
     // Hamburger menu
     $('.hamburger').click(function(){

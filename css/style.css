@@ -374,6 +374,8 @@ article {
   font-size: 24px;
   line-height: 36px;
   position: relative; }
+  article a {
+    color: #4b8971; }
 
 footer {
   height: 360px;

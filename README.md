@@ -1,6 +1,10 @@
 # Hackpad Blog
 A blog based on Hackpad
 
+## Demo
+
+http://kidgodzilla.github.io/hackpad-blog
+
 ## Usage
 
 1. Clone this repo & create a new `gh-pages` branch. This will publish your repository to

@@ -268,8 +268,15 @@ header {
       content: '\e612';
       top: -2px; }
 
-.collapse .logo h1 {
-  content: 'Blog'; }
+.logo h1.collapsed {
+  display: none; }
+.logo h1.big {
+  display: block; }
+
+.collapse .logo h1.collapsed {
+  display: block; }
+.collapse .logo h1.big {
+  display: none; }
 
 .linkbox {
   width: 100%;

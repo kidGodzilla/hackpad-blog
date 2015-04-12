@@ -303,8 +303,21 @@ header {
         }
     }
 }
-.collapse .logo h1 {
-    content: 'Blog';
+.logo {
+    h1.collapsed {
+        display: none;
+    }
+    h1.big {
+        display: block;
+    }
+}
+.collapse .logo {
+    h1.collapsed {
+        display: block;
+    }
+    h1.big {
+        display: none;
+    }
 }
 .linkbox {
     width: 100%;
